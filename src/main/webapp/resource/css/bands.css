@@ -1,0 +1,37 @@
+th,td {
+	text-align: center;
+}
+
+th a {
+	cursor: pointer;
+	text-decoration: none !important;
+}
+
+.highlight {
+	background-color: #F8F8F8;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table thead {
+  text-align: left;
+  border-bottom: 1px solid #000;
+}
+
+table tbody {
+  border-bottom: 1px solid #000;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+  border-collapse: separate;
+}
+
+table td {
+  padding: 5px;
+}
+
+table td.group-col {
+  vertical-align: top;
+  border-right: 1px solid #000;
+}
